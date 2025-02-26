@@ -58,66 +58,101 @@ Pros of Public Repos:
 Cons of Public Repos:
 
 • Security Risks
+
 •	Sensitive data like API keys, passwords, or proprietary logic can be accidentally exposed, leading to security breaches.
 •	Malicious actors can exploit vulnerabilities in your code if security patches are not promptly applied.
+
 • Intellectual Property Exposure
+
 •	Proprietary algorithms or business logic can be easily copied by competitors.
 •	No legal enforcement unless a proper license is applied.
+
 • Lack of Control Over Forks
+
 •	Anyone can fork a public repository and modify it, leading to potential misuse.
 •	Bad actors could distribute altered versions with bugs or security vulnerabilities.
+
 • Public Scrutiny & Unwanted Feedback
+
 •	Code quality and design decisions may be criticized openly.
 •	Negative feedback or harsh criticism can be discouraging for developers.
+
 • Risk of Code Manipulation
+
 •	Contributors may introduce vulnerabilities, either accidentally or intentionally.
 •	Pull requests from unknown contributors need careful review to prevent malicious changes.
+
 • Spam & Unauthorized Contributions
+
 •	Public repositories can attract spam issues, irrelevant PRs, and low-quality contributions.
 •	Managing contributions and filtering useful changes can become time-consuming.
 
 Pros of a Private Repository on GitHub
 
 1.	Enhanced Security & Confidentiality
+   
 o	Keeps proprietary code, API keys, and business logic private, reducing the risk of data leaks.
 o	Prevents unauthorized access and protects against potential security breaches.
-2.	Intellectual Property Protection
+
+3.	Intellectual Property Protection
+   
 o	Prevents competitors from copying, modifying, or redistributing your code.
 o	Allows companies to retain exclusive rights over their software.
-3.	Full Control Over Access & Modifications
+
+5.	Full Control Over Access & Modifications
+   
 o	Only authorized users can view and contribute to the codebase.
 o	Prevents unwanted forks or modifications that could introduce vulnerabilities.
-4.	Reduced Public Scrutiny & Pressure
+
+7.	Reduced Public Scrutiny & Pressure
+   
 o	Developers can work without public criticism or scrutiny of their coding practices.
 o	Teams can experiment freely without fear of reputation damage from unfinished or buggy code.
-5.	Better Management of Contributions
+
+9.	Better Management of Contributions
+    
 o	Code reviews, pull requests, and merges are controlled internally, reducing spam or low-quality contributions.
 o	Avoids unwanted PRs from random contributors.
-6.	Compliance with Legal & Regulatory Requirements
+
+11.	Compliance with Legal & Regulatory Requirements
+    
 o	Helps businesses comply with data protection laws (e.g., GDPR, HIPAA) by keeping sensitive data private.
 o	Ensures internal security policies are followed.
-7.	Collaboration Within a Restricted Team
+
+13.	Collaboration Within a Restricted Team
+    
 o	Enables secure collaboration among specific team members without exposing code to outsiders.
 o	Useful for private startups, corporate projects, and sensitive research.
 
 Cons of a Private Repository on GitHub
 
 1.	Limited Collaboration & Community Involvement
+   
 o	Private repositories restrict access to only authorized users, making it harder to receive contributions from the open-source community.
 o	Developers miss out on external feedback, improvements, and bug fixes from a broader audience.
-2.	Costs & Pricing Limitations
+
+3.	Costs & Pricing Limitations
+   
 o	While GitHub offers free private repositories, advanced features (e.g., larger teams, enterprise security, GitHub Actions minutes) require a paid plan.
 o	Organizations may need to invest in GitHub Enterprise for full control and compliance.
-3.	Lack of Public Exposure & Portfolio Impact
+
+5.	Lack of Public Exposure & Portfolio Impact
+   
 o	Developers cannot showcase private repositories in their public portfolio.
 o	Potential employers or collaborators cannot see your contributions unless you explicitly share access.
-4.	Risk of Reduced Code Review & Innovation
+
+7.	Risk of Reduced Code Review & Innovation
+   
 o	Private repositories rely on internal reviews only, limiting diverse perspectives and best practices from the global development community.
 o	Open-source projects benefit from peer reviews, community-driven improvements, and external expertise.
-5.	Access Management Overhead
+
+9.	Access Management Overhead
+    
 o	Managing permissions and access control can become complex, especially in large teams.
 o	Mistakenly granting access to the wrong user can compromise security.
-6.	No External Bug Reports & Testing by the Community
+
+11.	No External Bug Reports & Testing by the Community
+    
 o	Public repositories often get bug reports and security disclosures from external users.
 o	Private repositories require internal testing teams, which can increase workload and delay issue detection.
 
@@ -137,10 +172,14 @@ o	Private repositories require internal testing teams, which can increase worklo
    
 Branching allows developers to work on features independently without affecting the main codebase.
 Branches prevent conflicts and allow parallel development, making collaboration more efficient.
+
 •  Create a new branch by using the following command
+
   git branch feature-branch
   git checkout feature-branch
+  
 •  Work on the feature and commit changes.
+
 •  Merge back to main using a pull request.
 
 9.	Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
